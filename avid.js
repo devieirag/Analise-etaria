@@ -40,7 +40,7 @@ if (fy.value.length == 0 || Number(fy.value) > ano){
 
     if (ebs[0].checked) {
 
-    gen = 'homem/macho'
+    gen = 'masculino'
 
     if (id >=0 && id <10) {
 
@@ -68,7 +68,7 @@ if (fy.value.length == 0 || Number(fy.value) > ano){
 
     } else if (ebs[1].checked) {
 
-    gen = 'mulher/femea'
+    gen = 'feminino'
     
     if (id >=0 && id <10) {
 
@@ -96,7 +96,7 @@ if (fy.value.length == 0 || Number(fy.value) > ano){
     }
 
     tt.style.textAlign = 'center'
-    tt.innerHTML = `Um(a) ${gen} de ${id} anos`
+    tt.innerHTML = `Você é do gênero ${gen} e têm ${id} anos`
     tt.appendChild(tf)
 
 }
