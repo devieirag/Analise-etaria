@@ -97,7 +97,7 @@ if (fy.value.length == 0 || Number(fy.value) > ano){
     }
 
     tt.style.textAlign = 'center'
-    tt.innerHTML = `Você é do gênero ${gen} e têm ${id} anos`
+    tt.innerHTML = `<p> Você é do gênero ${gen} e têm ${id} anos </p>`
     tt.appendChild(tf)
 
 }
