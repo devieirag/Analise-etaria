@@ -11,6 +11,8 @@ var fy = document.querySelector('input#texto_ano')
 var tt = document.querySelector('div#tot')
 /*pegamos também uma variável para pegar o id da div tot*/ 
 
+var fotos = document.querySelector('div#fotos')
+
 if (fy.value.length == 0 || Number(fy.value) > ano){
 
     window.alert('favor, verificar os dados e tentar novamente')
@@ -97,7 +99,7 @@ if (fy.value.length == 0 || Number(fy.value) > ano){
 
     tt.style.textAlign = 'center'
     tt.innerHTML = `Você é do gênero ${gen} e têm ${id} anos`
-    tt.appendChild(tf)
+    fotos.appendChild(tf)
 
 }
 
